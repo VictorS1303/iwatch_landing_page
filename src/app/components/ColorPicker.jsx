@@ -22,8 +22,9 @@ const ColorPicker = () =>
     return (
         <div class="color-picker-container h-30 w-30 flex flex-col gap-6">
             {
-                colorBtns.map((btn) => (
+                colorBtns.map((btn, index) => (
                     <button
+                        key={index}
                         class={btn.class}
                         style={{backgroundColor: btn.btnBackgroundColor, color: btn.btnColorValue}}
                     ></button>
