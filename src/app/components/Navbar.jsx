@@ -5,7 +5,7 @@ import { CiShoppingBasket } from "react-icons/ci"
 const Navbar = () =>
 {
     return (
-        <nav class="flex justify-between items-center w-400 text-md bg-dark">
+        <nav class="flex justify-between items-center w-400 text-md">
             <IoLogoApple size={60} />
 
             <ul class="flex justify-around gap-x-24">
